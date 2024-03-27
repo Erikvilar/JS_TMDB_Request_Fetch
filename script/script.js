@@ -11,7 +11,7 @@ window.addEventListener('load', function () {
     };
 
     function fetchData() {
-        fetch('https://api.themoviedb.org/3/movie/top_rated?api_key=181c0d2cf37e7daad1425100c90a50ea', options)
+        fetch('https://api.themoviedb.org/3/movie/popular?api_key=181c0d2cf37e7daad1425100c90a50ea', options)
             .then(response => response.json())
             .then(data => {
 
