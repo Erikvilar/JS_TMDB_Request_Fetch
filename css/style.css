@@ -1,0 +1,164 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+*{
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+}
+
+body{
+    background-color: black;
+    color:  white;
+    
+}
+
+.header-div-top{
+    padding: 20px 10px 10px 10px;
+
+    display: flex;
+    background:url('/img/fundo.png');
+    background-size: 1000px 500px;
+    background-repeat: no-repeat;
+    width: 100%;
+    margin: auto;
+    max-width: 1920px;
+    height: 500px;
+  
+   
+
+}
+.header-div-top nav ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 20px;
+    cursor: pointer;
+    font-size: 25px;
+    font-weight: 500;
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    padding: 10px;
+    transition: all 0.5s;
+    border-radius: 20px;
+    
+}.header-div-top nav ul li:hover{
+   color: rgb(255, 255, 255);
+   background-color: orange;
+   
+
+  
+    
+
+    
+}
+.header-div-top nav  { 
+    display: flex;
+ 
+    text-align: center;
+    margin: auto;
+    margin-top: 350px;
+    
+  
+    
+}.main-div-section-top{
+    display: flex;
+
+    height: 350px;
+    width: 800px;
+    margin: auto;
+    margin-top: 50px;
+    border-radius: 10px 0px 0px;
+    border-bottom: 5px solid rgba(255, 255, 255, 0.88);
+ 
+    
+
+}.movies{
+    display: flex;
+    flex-wrap: wrap;
+    grid-auto-flow:dense;
+    width: 100%;
+    max-width: 1700px;
+    height: 100%;
+    margin: auto;
+
+    margin-top: 50px;
+}
+.movies div h2{
+    
+    margin: 0;
+    font-weight: 500;
+    padding-bottom:15px;
+    font-family: 'Roboto',sans-serif;
+    color: rgb(255, 255, 255);
+
+
+}.movies div img{
+   
+width: 300px;
+height: 400px;
+
+}.movies div img{
+    border: 8px solid black;
+    border-radius: 10px;
+}
+.movies div{
+    position: relative;
+    width: 400px;
+    height: 750px;
+    text-align: center;
+    padding: 15px;
+    border-radius: 20px;
+  
+ 
+    transition: 0.8s;
+    cursor: pointer;
+   
+
+}.movies div p{
+    margin-top: 65px;
+    font-family: "Poppins", sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 28px;
+}
+.movies div:hover{
+    background-color: rgba(229, 229, 229, 0.141);
+ 
+ 
+   
+}.movies span{
+    list-style: none;
+    position: absolute;
+    top: 480px;
+
+    font-size: 16px;
+    font-family: 'Tahoma',sans-serif;
+    margin-top: 20px;
+    transition: all 0.3s;
+
+}.movies span:hover{
+   
+   color: orange;
+
+}
+.movies span:nth-child(1){
+    position: absolute;
+    left: 58px;
+}.movies span:nth-child(2){
+    position: absolute;
+    left: 180px;
+}
+main section{
+    width: 1920px;
+    margin: auto;
+    margin-top: 20px;
+    height: 100%;
+
+}footer{
+    margin-top: 50px;
+    color: white;
+    font-size: 20px;
+    letter-spacing: 2px;
+    margin-bottom: 50px;
+    font-family: 'Roboto',sans-serif;
+    text-align: center;
+}
+
